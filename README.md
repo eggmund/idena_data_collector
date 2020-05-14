@@ -1,10 +1,12 @@
 # idena data collector
 
+Uses Endogen's Idena API for Python to record your Idena balance over time.
+
 ### Scripts:
 
-`dna_calc.py`: Script to get time and balance data from a csv file and display a graph of your balance with time, and calculate DNA/day and $/day.
+- `dna_calc.py`: Script to get time and balance data from a csv file and display a graph of your balance with time, and calculate DNA/day and $/day.
 
-`dna_watcher.py`: Fetches your current balance every hour (unless changed in `dna_config.py`). Recommended to be run alongside the idena node.
+- `dna_watcher.py`: Fetches your current balance every hour (unless changed in `dna_config.py`). Recommended to be run alongside the idena node.
 
 ### Configuration:
 
